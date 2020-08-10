@@ -14,5 +14,6 @@ A section about projects that I have built.
 
 Contact information
 
-The site is deployed at #
+The site is deployed at https://jaydon-goodrich.github.io/challenge-2-portfolio/
 
+![](assets/mysite.png)

@@ -12,6 +12,7 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     background-color: var(--third-color);
 }
+/* Style for the header grid */
 .grid-container {
     display: grid;
     grid-template-columns: repeat(5, 1fr);
@@ -40,7 +41,7 @@ body {
     align-items: flex-end;
     font-size: 1.5rem;
 }
-
+/* Styles for the header content */
 header {
     padding: 20px 35px;
     background-color: var(--primary-color);
@@ -54,12 +55,7 @@ header a {
     text-decoration: none;
     color: var(--secondary-color);
 }
-header nav ul {
-    list-style: none;
-}
-header nav ul li a {
-    padding: 10px 15px;
-}
+/* Style for the about me grid */
 .about-me-grid {
     display: grid;
     grid-template-columns: 1fr repeat(2, 2fr);
@@ -100,9 +96,11 @@ header nav ul li a {
     align-items: center;
     color: var(--primary-color)
 }
+/* First line bolded */
 .first-line {
     font-weight: bold;;
 }
+/* Styles for the projects grid */
 .projects-grid {
     display: grid;
     grid-template-columns: 1fr repeat(3, 1fr);
@@ -148,6 +146,7 @@ header nav ul li a {
     width: 100%;
     padding: 5px;
 }
+/* Style for the contact grid */
 .contact-grid {
     display: grid;
     grid-template-columns: 1fr repeat(4, 1fr);
@@ -185,7 +184,7 @@ footer {
     padding: 20px;
     font-size: 1.5rem;
 }
-
+/* Styles for smaller screen sizes */
 @media screen and (max-width: 980px){
     header{
         padding-bottom: 0;
