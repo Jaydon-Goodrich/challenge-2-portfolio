@@ -1,4 +1,4 @@
-# challenge-2-portfolio
+# my-portfolio
 
 ## This is the second challenge a Personal Portfolio
 
